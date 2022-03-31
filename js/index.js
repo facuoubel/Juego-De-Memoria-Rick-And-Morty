@@ -170,7 +170,7 @@ class juego {
 	victoria() {
 		this.PausarTiempo()
 		swal(
-			'Ganaste!',
+			'Completado!',
 			`Movimientos: ${this.movimientos} \n\n Tiempo: ${this.tiempo}`,
 			'success'
 		).then(() => {
